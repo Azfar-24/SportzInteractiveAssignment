@@ -1,0 +1,42 @@
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input input {
+  width: 50%;
+  padding: 1rem 0.5rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  font-size: 1.3rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  border-radius: 10px;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+span {
+  font-weight: lighter;
+  display: block;
+}
+
+.detail {
+  font-weight: bold;
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
