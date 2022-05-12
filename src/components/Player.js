@@ -11,7 +11,7 @@ export const Player = () => {
     );
     const playerData = data.playerList.sort((a, b) => a.Value - b.Value);
     setData(playerData);
-    setFilterData(data.playerList);
+    setFilterData(playerData);
   };
 
   useEffect(() => {
